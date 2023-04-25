@@ -15,7 +15,7 @@ Also if there is no "eol" in JSON at all, as a row, currentSystemDate will be st
 If there is no year, month, day in EOL or releaseDate as they are equal to 0, but one of these is not 0 (or two), then the version will be skipped, because I'm assuming this kind of date is unvalid - <ins>how can a date 2024-0-0 be logically expressed?</ins> <br/>
 If date is 0-0-0 then a logical conclusion is that it doesn't exist. <br/>
 ### There is a difference between how unvalid dates and dates that don't exist are handled. <br/> ###
-Invalid date will cause version to not be taken into consideration (either EOL or ReleaseDate). <br/>
+Invalid date will cause version to not be taken into consideration (either unvalid EOL or ReleaseDate). <br/>
 On the other hand if date doesn't exist there are 2 scenarios: <br/>
 - It's EOL and currentSystemTime will be taken instead (because EOL doesn't exist) <br/>
 - It's ReleaseDate and since version has no date the logical conclusion is that it was never released (so version won't be taken into consideration) <br/>
