@@ -36,9 +36,9 @@ On the other hand if date doesn't exist there are 2 scenarios: <br/>
 0-0-0, "000", "" for releasedDate is considered as version was never released, so it's skipped.
 For EOL on the other hand currentSystemDate will be taken instead. 
 
-Versions that only belong to product with OS value of boolean true are only considered.
-
 If releaseDates are equal then the version that is higher, earlier in JSON will be picked.
+
+Versions that only belong to product with OS value of boolean true are only considered.
 
 Unit tests are for maximum releaseDate version (that internship.cpp in src).
 
