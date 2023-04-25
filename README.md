@@ -37,7 +37,7 @@ On the other hand if date doesn't exist there are 2 scenarios: <br/>
 For EOL on the other hand currentSystemDate will be taken instead. 
 
 
-I'm also not sure what to do if release dates of versions are equal, since this case is not described on github, version that is defined above, earlier in json will be picked in this case as first.
+If releaseDates are equal then the version that is higher, earlier in JSON will be picked.
 
 Unit tests are for maximum releaseDate version (that internship.cpp in src).
 
