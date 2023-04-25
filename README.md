@@ -52,7 +52,7 @@ Unit tests are for maximum releaseDate version (that internship.cpp in src).
 - Dates can have only year or month or day. or combinations of these but missing something - unvalid date, version will be not taken into consideration. (ex 2024, 2012-0-12, 12-05, etc.)
 - "+2022-+10-+2" considered as unvalid in checkIfConvertable.
 - checking if month is in <1; 12>, if not then skipping (invalid month), checking if day is in <1; 31>, valid for a month (skipping if invalid day or month).
-- Checking leap years for February also.
+- Checking leap years for February also. (If day && month && year are 0 then date is valid, but doesn't exist as described above)
 - I'm not sure what to do if there are whitespaces, ex. "12 345", when converted to uint it would be 12, so if I would want to consider this I would remove them before converting, I'm going to simply assume it has to be skipped as ' ' is not numeric. So date like "20 27-05-21" will be unvalid.
 - If there is no "eol" then currentDate will be taken instead, as product is still supported.
 - If there is no  "releaseDate" (or "releasedDate"), ex. there is "releaseDats", then the version will be skipped, since it was never released. 
