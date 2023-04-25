@@ -1,10 +1,10 @@
-Assumptions:
+# Assumptions:
 
-I'm assuming one cycle has to be selected with maximum releaseDate. (newest releaseDate). As on github in example we have:
-debian 11 1053 for data.json.
+I'm assuming one cycle has to be selected with maximum releaseDate. (newest releaseDate). As on github in example we have: <br/>
+debian 11 1053 for data.json. <br/>
 There is a cycle (version) with longer supportLength - "6", but still "11" is being selected. So I'm assuming we have to select a cycle with the biggest releaseDate - the newest.
 
-I coded a version of internship.cpp that selects a cycle (version) for each product with the longest supportLength from all of its versions, I put it in a folder called Max_Supprt_Length_Version.
+# I coded a version of internship.cpp that selects a cycle (version) for each product with the longest supportLength from all of its versions, I put it in a folder called Max_Supprt_Length_Version.
 
 If version doesn't have an EOL - I assume it is still supported to this day, so logically supportLength then should be: currentWorldDate (current system time) - releaseDate + 1, in case of EOL false, EOL being "", EOL equal to "0" or "00000" or "0-0-0". Basically year && month && day have to be of value 0.
 Also if there is no "eol" in JSON at all, as a row, currentWorldDate will be still taken and version will be still taken into consideration (Because there is no End of live).
