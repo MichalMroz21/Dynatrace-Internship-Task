@@ -2,7 +2,7 @@
 
 I'm assuming one cycle has to be selected with **maximum releaseDate** *(newest releaseDate).* <br/>
 As in example we have: <br/>
-debian 11 1053 for data.json. <br/>
+`debian 11 1053 for data.json.` <br/>
 There is a cycle (version) with longer supportLength - "6", but still "11" is being selected, so I'm assuming we have to select a cycle with the biggest releaseDate - the newest.
 
 ### I coded a version of internship.cpp that selects a cycle (version) for each product with the longest supportLength from all of its versions, I put it in a folder called Max_Support_Length_Version.
