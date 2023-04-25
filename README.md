@@ -1,4 +1,4 @@
-** # Assumptions: **
+# ** Assumptions: ** 
 
 I'm assuming one cycle has to be selected with maximum releaseDate. (newest releaseDate). As on github in example we have: <br/>
 debian 11 1053 for data.json. <br/>
