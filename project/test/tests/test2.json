@@ -1,0 +1,104 @@
+[ 
+    {
+        "name": "NoEOLDefined1",
+        "os": true,
+        "versions": [
+            {
+            "cycle": "22.04",
+            "codename": "Jammy Jellyfish",
+            "support": "-09-30",
+            "lts": true,
+            "latest": "22.04.2",
+            "link": "https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/",
+            "releaseDate": "2000-10-02"
+            }
+        ]
+    },
+
+    {
+        "name": "NoEOLDefined2",
+        "os": true,
+        "versions": [
+            {
+            "cycle": "22.04",
+            "codename": "Jammy Jellyfish",
+            "support": "-09-30",
+            "lts": true,
+            "eol": "",
+            "latest": "22.04.2",
+            "link": "https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/",
+            "releaseDate": "1999-10-02"
+            }
+        ]
+    },
+
+    {
+        "name": "NoEOLDefined3",
+        "os": true,
+        "versions": [
+            {
+            "cycle": "22.04",
+            "codename": "Jammy Jellyfish",
+            "support": "-09-30",
+            "lts": true,
+            "eol": "000-0000",
+            "latest": "22.04.2",
+            "link": "https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/",
+            "releaseDate": "1998-10-02"
+            }
+        ]
+    },
+
+    {
+        "name": "NoEOLDefined4",
+        "os": true,
+        "versions": [
+            {
+            "cycle": "22.04",
+            "codename": "Jammy Jellyfish",
+            "support": "-09-30",
+            "lts": true,
+            "eol": "0000000",
+            "latest": "22.04.2",
+            "link": "https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/",
+            "releaseDate": "1997-10-02"
+            }
+        ]
+    },
+
+    {
+        "name": "NoEOLDefined5",
+        "os": true,
+        "versions": [
+            {
+            "cycle": "22.04",
+            "codename": "Jammy Jellyfish",
+            "support": "-09-30",
+            "lts": true,
+            "eol": false,
+            "latest": "22.04.2",
+            "link": "https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/",
+            "releaseDate": "1996-10-02"
+            }
+        ]
+    },
+
+    {
+        "name": "NoEOLDefined6",
+        "os": true,
+        "versions": [
+            {
+            "cycle": "22.04",
+            "codename": "Jammy Jellyfish",
+            "support": "-09-30",
+            "lts": true,
+            "eol": "0",
+            "latest": "22.04.2",
+            "link": "https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/",
+            "releaseDate": "1995-10-02"
+            }
+        ]
+    }
+
+]
+  

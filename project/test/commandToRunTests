@@ -1,0 +1,7 @@
+sudo docker run --rm -w /usr/src/internship_task -v "$(pwd):/usr/src/internship_task" internship_task:latest
+
+put it in terminal opened in test folder.
+
+Difference in internship.cpp files is I added boost::test_tools::output_test_stream, so function saves output in stream reference for test.cpp. And removed solution function, because it's not needed.
+
+Returning a priority queue and then dealing with it in test.cpp seems dumb.
