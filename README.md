@@ -17,7 +17,7 @@ If date is 0-0-0 then a logical conclusion is that it doesn't exist. <br/>
 ### There is a difference between how unvalid dates and dates that don't exist are handled. <br/> ###
 Invalid date will cause version to not be taken into consideration (either unvalid EOL or ReleaseDate). <br/>
 On the other hand if date doesn't exist there are 2 scenarios: <br/>
-- It's EOL and currentSystemTime will be taken instead (because EOL doesn't exist, product is supported still to this day) <br/>
+- It's EOL and currentSystemTime will be taken instead (because EOL doesn't exist, product is still supported to this day) <br/>
 - It's ReleaseDate and since version has no date the logical conclusion is that it was never released (so version won't be taken into consideration) <br/>
 
 ### Example of unvalid dates:
