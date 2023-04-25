@@ -1,7 +1,7 @@
 # Assumptions: 
 
 I'm assuming one version has to be selected with **maximum releaseDate** *(newest releaseDate).* <br/>
-As in example we have: <br/>
+As in example there is: <br/>
 `debian 11 1053 for data.json.` <br/>
 There is a cycle (version) with longer supportLength - "6", but still "11" is being selected, so I'm assuming we have to select a cycle with **the biggest releaseDate - the newest.**
 
