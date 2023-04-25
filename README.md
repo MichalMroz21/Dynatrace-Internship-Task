@@ -41,14 +41,6 @@ I'm also not sure what to do if release dates of versions are equal, since this 
 
 Unit tests are for maximum releaseDate version (that internship.cpp in src).
 
-`that will extract a given number of operating systems with the longest support period from the provided JSON file.` -
-this suggested to me that we have to select a cycle with maximum support length, and that's what I initially implemented, but debian 11 1053 example below suggests maximum releaseDate, so I changed code. <br/>
-
-
-I'm not simply taking the first cycle, version, assuming it's the newest one, because the order can be mixed up, so i'm comparing releaseDates.. <br/>
-
-Because If we have to select a cycle with maximum releasedate, then why are there other older cycles (versions) in .json files? That doesn't make logical sense, to have that information if it's not needed, so I am not sure if this is a correct assumption. Anyway I wrote some unit tests, so You can see what I assumed and what I mean exactly. <br/>
-
 # Edge cases:
 
 - switching to "releasedDate" for data1.json.
