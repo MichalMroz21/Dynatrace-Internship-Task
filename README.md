@@ -41,7 +41,7 @@ And cycles can be strings..
 
 Because If we have to select a cycle with maximum releasedate, then why are there other older cycles (versions) in .json files? That doesn't make logical sense, to have that information if it's not needed, so I am not sure if this is a correct assumption. Anyway I wrote some unit tests, so You can see what I assumed and what I mean exactly.
 
-Edge cases:
+# Edge cases:
 
 1. switching to "releasedDate" for data1.json.
 2. Dates can be random: ex. "!!!!!" - (added check if it's numeric, doesn't have ('-') (negative) and try catch for overflowing).
