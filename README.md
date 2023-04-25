@@ -57,7 +57,7 @@ Unit tests are for maximum releaseDate version (that internship.cpp in src).
 - If there is no "eol" then currentDate will be taken instead, as product is still supported.
 - If there is no  "releaseDate" (or "releasedDate"), ex. there is "releaseDats", then the version will be skipped, since it was never released. 
 - if there is no "os", ex. "oss" : true, then product will be skipped.
-- if there is no "name", ex. "names", then if checking, continuing, so program doesn't crash, product will be skipped.
+- if there is no "name", ex. "names", then product will be skipped.
 - if every version is invalid is some way (continue triggered), or versions list is empty, then not adding supportLength = 0 to results, I made a single boolean for that.
 
 ### Other Assumptions:
