@@ -8,9 +8,9 @@ There is a cycle (version) with longer supportLength - "6", but still "11" is be
 ### I coded a version of internship.cpp that selects a cycle (version) for each product with the longest supportLength from all of its versions, I put it in a folder called Max_Support_Length_Version.
 
 ## Important - If version doesn't have an EOL ##
-I'm assuming it is still supported to this day, so logically supportLength then should be: currentWorldDate (current system time) - releaseDate + 1, in case of EOL false, EOL being "", EOL equal to "0" or "00000" or "0-0-0". <br/> 
+I'm assuming it is still supported to this day, so logically supportLength then should be: currentSystemDate - releaseDate + 1, in case of EOL false, EOL being "", EOL equal to "0" or "00000" or "0-0-0". <br/> 
 Basically year && month && day have to be of value 0. <br/>
-Also if there is no "eol" in JSON at all, as a row, currentWorldDate will be still taken and version will be still taken into consideration (Because there is no End of live). <br/>
+Also if there is no "eol" in JSON at all, as a row, currentSystemDate will be still taken and version will be still taken into consideration (Because there is no End of live). <br/>
 
 If there is no year, month, day in eol or releaseDate as they are equal to 0, but one of these is not 0, then the version will be skipped, because I'm assuming this kind of date is unvalid (how can a date 2024-0-0 be logically expressed? <br/>
 If date is 0-0-0 then a logical conclusion is that it doesn't exist, but what about 2024-0-0 for example?), so version will be skipped (continue; in a for loop) (all equal to zero is valid for EOL and currentWorldDate will be taken instead) (all equal to zero for releaseDate means version was never released, since date doesn't exist, so I skip it). <br/>
