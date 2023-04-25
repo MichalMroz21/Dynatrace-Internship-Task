@@ -34,7 +34,7 @@ On the other hand if date doesn't exist there are 2 scenarios: <br/>
 * 20 22-10-02 (' ' makes date not numeric)
 
 0-0-0, "000", "" for releasedDate is considered as version was never released, so it's skipped.
-For EOL on the other hand currentWorldDate will be taken instead. 
+For EOL on the other hand currentSystemDate will be taken instead. 
 
 
 I'm also not sure what to do if release dates of versions are equal, since this case is not described on github, version that is defined above, earlier in json will be picked in this case as first.
